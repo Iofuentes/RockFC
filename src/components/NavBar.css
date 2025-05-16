@@ -1,0 +1,21 @@
+.navbar-container {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    /* background-color: #F2EFDF; */
+    background-color: #A7C080;
+    opacity: 80%;
+}
+
+.navbar-logo {
+    flex-basis: 80%;
+    align-self: center;
+}
+
+.logo-font {
+    /* color: #3D484D; */
+    color: #2D353B;
+    font-size: x-large;
+    font-weight: 600;
+}

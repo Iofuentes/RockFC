@@ -1,0 +1,30 @@
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    border: 1px solid #3D484D;
+    border-radius: 5px;
+    background-color: #56635F;
+    color: #F2EFDF;
+}
+
+/* .overlay {
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #56635F;
+    opacity: 70%;
+    z-index: 50;
+
+}
