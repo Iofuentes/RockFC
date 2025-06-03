@@ -1,10 +1,14 @@
 import './Login.css'
+import ExitButton from './ExitButton';
 
 const Login = () => {
   return (
     <>
       <div style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', zIndex: "100"}}>
         <div className="login-box">
+          <div style={{}}>
+                  <ExitButton onClick={() => console.log('Clicked')} />
+          </div>
           <form>
               <div className="mb-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
